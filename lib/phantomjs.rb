@@ -22,7 +22,7 @@ module Phantomjs
     end
 
     def path
-      @path ||= "#{platform.phantomjs_path} --ssl-protocol=tlsv1"
+      @path ||= platform.phantomjs_path
     end
 
     def platform
